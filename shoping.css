@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'siru';
+    src: url(font/Sirukota.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .navbar{
+    border-radius: 10px;
+  }
+  .brea{
+    font-family: 'siru';
+  }
+  .navitem{
+    font-family: 'siru';
+  }
+  .kata{
+    font-family: 'siru';
+  }

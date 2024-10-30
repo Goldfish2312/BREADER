@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'siru';
+  src: url(font/Sirukota.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar{
+  border-radius: 10px;
+}
+.brea{
+  font-family: 'siru';
+}
+.navitem{
+  font-family: 'siru';
+}
+.kata{
+  font-family: 'siru';
+}
+.jumbotron {
+  /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire jumbotron */
+  background-position: center; /* Center the background image */
+  border-radius: 0; /* No rounded corners to match the navbar */
+  padding: 60px; /* Adjust padding as needed */
+  color: white; /* Text color for better visibility */
+  position: relative; /* Position for pseudo-element */
+  height: 100vh;
+}
+
+.jumbotron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.jumbotron h1,
+.jumbotron p {
+  position: relative; /* Position relative to allow overlay */
+  z-index: 2; /* Bring text above overlay */
+}
+
+

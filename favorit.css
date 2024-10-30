@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'siru';
+    src: url(font/Sirukota.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .navbar{
+    border-radius: 10px;
+  }
+  .brea{
+    font-family: 'siru';
+  }
+  .navitem{
+    font-family: 'siru';
+  }
+  .kata{
+    font-family: 'siru';
+  }
+
+  .body {
+    background-image: url(gambarroti/patern.jpg); /* Light background for contrast */
+    
+}
+.kartu {
+    transition: transform 0.2s;
+}
+.kartu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.card-text {
+    font-weight: bold;
+    text-align: center;
+}
+.kartu {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+    border-radius: 15px; /* Rounded corners for the card */
+    overflow: hidden; /* Prevents overflow from rounded corners */
+}
+
+.kartu:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+    background-color: white; /* White background for the card body */
+}
+
+.card-text {
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Centered text */
+    font-size: 1.2rem; /* Slightly larger font size */
+    color: #333; /* Dark color for better contrast */
+    font-family: 'siru';
+}
+
+/* Optional: Add a footer with a button */
+.card-footer {
+    text-align: center; /* Centered footer content */
+}
+
+.btn-custom {
+    background-color: salmon; /* Custom button color */
+    color: white; /* White text for contrast */
+    border-radius: 20px; /* Rounded button */
+    transition: background-color 0.3s; /* Smooth transition for button hover */
+}
+
+.btn-custom:hover {
+    background-color: darksalmon; /* Darker shade on hover */
+}
